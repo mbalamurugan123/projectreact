@@ -1,38 +1,51 @@
-.App {
+body{
+  background-image: linear-gradient(to right,rgb(133, 249, 166),rgb(176, 246, 194));
+
+  position: relative;
+  top: 150px;
+}
+
+#register{
+  background-color: rgb(129, 188, 233);
+  width: 400px;
+  padding: 60px;
+  height: 400px;
+  position: relative;
+  left: 35%;
+  opacity: 0.6;
+  border-radius: 20px;
+  font-weight: bolder;
+  font-size: larger;
+}
+input{
+  width: 200px;
+  height: 20px;
+  margin-top: 20px;
+}
+.header{
+  font-size: xx-large;
+  text-transform: uppercase;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button{
+  width: 300px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  background-color: rgb(47, 129, 3);
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.errorMsg{
+  color: rgb(242, 45, 45);
+  position: relative;
+  left: 130px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label{
+  position: relative;
+  left: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  position: relative;
+  left: 30px;
 }
